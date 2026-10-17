@@ -1,0 +1,100 @@
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+#head {
+    font-family:Black Ops One,system-ui;
+    font-size: 25px;
+    color:darkblue;
+}
+#signup {
+    border-radius: 10px;
+    background:linear-gradient(135deg,rgb(0, 0, 255,0.6),lightblue);
+    border: 2px solid blue;
+    padding: 15px;
+    height: 600px;
+    width: 370px;
+   align-items: center;
+   text-align: center;
+   transition: 1s;
+}
+#signup:hover {
+    box-shadow: 2px 3px 10px blue;
+}
+#profile {
+   height:140px;
+    width: 140px;
+    border-radius: 70px; 
+    border: 2px solid blue;
+}
+
+#you {
+    font-size: 16px;
+    text-align: left;
+    font-family: Merriweather,serif;
+}
+#name {
+    font-size:16px;
+    text-align: left;
+}
+
+
+#safe {
+    font-family: Merriweather,serif;
+    font-size: 16px;
+    text-align: left;
+}
+#password {
+    font-size:16px;
+    text-align: left;
+}
+
+
+#new {
+    font-family: Outfit,sans-serif;
+}
+
+#next {
+    font-size: 16px;
+    border-radius: 15px;
+    width:200px ;
+    height: 40px;
+    font-family:Merriweather,serif;
+    background:linear-gradient(45deg,blue,lightblue); 
+     color: aliceblue;
+     border: 1px solid blue;
+     transition: 0.5s;
+}
+#next:hover {
+box-shadow: 3px 3px 10px darkblue;
+font-size: 18px;
+}
+#Your-name {
+    font-size: 16px;
+    text-align: left;
+    font-family: Merriweather,serif;
+}
+#full-name {
+     font-size:16px;
+    text-align: left;
+}
+#enter-email {
+      font-size: 16px;
+    text-align: left;
+    font-family: Merriweather,serif;
+}
+#email {
+      font-size:16px;
+    text-align: left;
+}
+#phone {
+      font-size: 16px;
+    text-align: left;
+    font-family: Merriweather,serif;
+}
+#tel {
+      font-size:16px;
+    text-align: left;
+}
